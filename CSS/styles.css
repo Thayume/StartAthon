@@ -4,6 +4,8 @@
     font-family: Helvetica, sans-serif;
 }
 
+
+
 h1, h2, h3{
     color: #333;
 }
@@ -342,22 +344,18 @@ footer{
 @media (max-width: 576px){
 
     html, body{
-        overflow: hidden;
+        overflow: auto;
     }
-
     .navbar-items li{
         font-size: 12px;
         margin-left: 10px;
     }
-
     .main-banner p{
         padding: 0 2rem;
     }
-
     .services-container ul{
         flex-direction: column;
     }
-
     .plans-container{
         flex-direction: column;
         width: 100%;
@@ -368,19 +366,15 @@ footer{
         max-width: 100%;
         margin-bottom: 15px;
     }
-
     .serchdomain-container h2{
         font-size: 28px;
     }
-
     .serchdomain-container input[type="text"]{
         font-size: 28px;
     }
-
     .contact-container{
-        padding:3rem 2rem ;
+        padding:3rem 2rem;
     }
-
     .contact-container input,
     .contact-container textarea{
         width: 100%;
