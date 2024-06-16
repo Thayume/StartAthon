@@ -367,6 +367,22 @@ footer{
     .main-banner p{
         padding: 0 2rem;
     }
+
+    .main-banner-mapa{
+        background-image: url(../IMG/MapaCelular.png);
+        background-size: cover;
+        background-position: center;
+        padding: 10rem 0;
+    }
+
+    .main-banner-whatsapp{
+        background-image: url(../IMG/WhatsCelular.png);
+        background-size: cover;
+        background-position: center;
+        padding: 10rem 0;
+    }
+    
+
     .services-container ul{
         flex-direction: column;
     }
